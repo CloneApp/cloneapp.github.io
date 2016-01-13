@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Clone: Your iOS Git client</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/clone.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,7 +19,7 @@
     <![endif]-->
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -27,55 +28,100 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <p class="text-center"><img src="img/clone-icon.png" class="img-rounded" width="256" height="256" class="img-rounded"></img></p>
+        <h1 class="text-center">Clone</h1>
+<p>Clone brings the power of Git version control to iOS, in an intelligent package. With beautiful visualization, an advanced code editor, and intuitive git workflows, Clone makes git productivity mobile.</p>
+  <a href="#"><img src="img/app_store.svg" width="135" height="40"></a>
+    <!-- image here -->
       </div>
     </div>
 
     <div class="container">
-      <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <h2 class="text-center">Features</h2>
+      </div>
+        <hr/>
+      <div class="row">
+        <div class="col-md-5">
+          <img class="screenshot img-responsive img-rounded"  src="img/screenshot.png"></img>
         </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-md-7">
+          <h3>Top-notch visualization</h3>
+          <p>A graph is worth a thousand SHAs. Clone shows commit history beautifully and quickly, so you can <strong>see</strong> what that merge commit actually merges. See what changed in amy commit with diff views. For individual files a heat map (blame) shows the who, what and when for each part of the file when you're asking <strong>why</strong>.</p>
         </div>
       </div>
+    <hr/>
+      <div class="row">
+        <div class="col-md-7">
+          <h3>Designed for iPad Pro and iOS 9</h3>
+          <p>Clone works beautifully on all iOS devices, but bigger is better. With multitasking on iPad, you can work side-by-side. Write a blog post in Markdown from one app while previewing in Clone. Commit and push are just a tap away. Whatever the size, you're covered.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="screenshot img-responsive img-rounded"  src="img/screenshot.png"></img>
+        </div>
+      </div>
+    <hr/>
+      <div class="row">
+        <div class="col-md-5">
+          <img class="screenshot img-responsive img-rounded"  src="img/screenshot.png"></img>
+        </div>
+        <div class="col-md-7">
+          <h3>A Code Editor tailored for git</h3>
+          <p>Be fearless with version control. Clone's text editor previews HTML and <a href="http://daringfireball.net/projects/markdown/">Markdown</a>. It performs syntax highlighting in 30+ languages and displays line numbers. It's built around git, so commit, blame, and revert are right at your fingertips.</p>
+        </div>
+      </div>
+    <hr/>
+      <div class="row">
+        <div class="col-md-7">
+          <h3>Your Git workflow, anywhere</h3>
+          <p>Pull, edit, and commit for free, on any iOS device. Connect your GitHub or bitbucket account for instant access to your public and private repos. Generate and upload a public key for password-free authentication. View diffs before committing, ignore files, and be a git master without a command-line.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="screenshot img-responsive img-rounded"  src="img/screenshot.png"></img>
+        </div>
+      </div>
+    <hr/>
+      <div class="row">
+        <div class="col-md-5">
+          <img class="screenshot img-responsive img-rounded"  src="img/screenshot.png"></img>
+        </div>
+        <div class="col-md-7">
+          <h3>Advanced Git support: Branch, Push, Merge</h3>
+          <p>Does <code>git push heroku master</code> mean something to you? What about a <code>gh-pages</code> branch? With an optional in-app purchase, Clone can push your repos and communicate with multiple remotes. When merge conflicts happen, Clone helps there too.</p>
+        </div>
+      </div>
+    <hr/>
+      <div class="row">
+        <div class="col-md-7">
+          <h3>Powerful integrations: <code>git init</code> to github.com in seconds</h3>
+          <p>After connecting to your Github or Bitbucket account, you can clone your repos without typing a thing. With an optional in-app purchase, repos you create on your device can be published to GitHub or bitbucket in seconds. Fix a bug, start a blog, or think bigger.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="screenshot img-responsive img-rounded"  src="img/screenshot.png"></img>
+        </div>
+      </div>
+    <hr/>
+      <div class="row">
+        <div class="col-md-12">
+          <p>Notes:</p>
+          <ul>
+          <li>Split view and slide over require compatible iPads</li>
+          <li>Push, management of remotes, and publishing to code hosting services require an in-app purchase.</li>
+          </ul>
+        </div>        
 
+      </div>
       <hr>
-
       <footer>
-        <p>&copy; 2015 Company, Inc.</p>
+        <p>&copy; 2016 Dan Leehr, LLC.</p>
       </footer>
     </div> 
     <!-- /container -->
