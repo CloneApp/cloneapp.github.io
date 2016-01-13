@@ -3,19 +3,23 @@ a {
 }
 
 .jumbotron {
-  background: #FAD961; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#FAD961, #F76B1C); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#FAD961, #F76B1C); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#FAD961, #F76B1C); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#FAD961, #F76B1C); /* Standard syntax */
+ /* darken 10%  #e1c048*/
+  background: #e1c048; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#e1c048, #de5203); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#e1c048, #de5203); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#e1c048, #de5203); /* For Firefox 3.6 to 15 */  
+  background: linear-gradient(#e1c048, #de5203); /* Standard syntax */
   color: white;
-  text-shadow: #888 0 1px 1px;
+  text-shadow: #444 0 1px 1px;
 }
 
 .jumbotron code {
   color: white;
-  text-shadow: #888 0 1px 1px;
+  text-shadow: #444 0 1px 1px;
   background: transparent;
 }
 
-.screenshot {
+.clone-icon {
+  box-shadow: #444 0 1px 1px;
+  border-radius: 32px;
+}
