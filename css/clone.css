@@ -23,3 +23,8 @@ a {
   box-shadow: #444 0 1px 1px;
   border-radius: 32px;
 }
+
+.features code {
+  color: #FF7B00;
+  background: transparent;
+}
